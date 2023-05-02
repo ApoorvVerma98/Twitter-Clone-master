@@ -4,7 +4,7 @@ import style from "./WhoToFollow.module.css";
 import CustomButton from "../whatsHappeningBar/Buttons";
 import VerifiedIcon from "@mui/icons-material/Verified";
 
-function Righthomebox2() {
+function Righthomebox2() { 
   // const [ show , setShow]= useState(false)
 
   const [followContainer, setFollowContainer] = useState([

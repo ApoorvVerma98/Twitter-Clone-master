@@ -6,7 +6,7 @@ import PopoverIcon from "./PopOver";
 const Trends = () => {
   const [trending, setTrendings] = useState([
     {
-      id: 1,
+      id: 1, 
       country: "Trending in World",
       keyword: "#Shahrukh Khan",
       totalKeywords: "7.5M Tweets",

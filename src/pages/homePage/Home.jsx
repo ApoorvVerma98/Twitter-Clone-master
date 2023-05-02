@@ -9,13 +9,13 @@ import { authAtom } from "../../component/recoil/atom";
 
 const Home = () => {
   const auth = useRecoilValue(authAtom);
-  const setAuth = useSetRecoilState(authAtom);
+  const setAuth = useSetRecoilState(authAtom); 
   const navigate = useNavigate();
 
   useEffect(() => {
     console.log(auth);
     if (!auth?.isLoggedIn) {
-      navigate("/login");
+      navigate("/signin");
     }
   }, [auth]);
   return (

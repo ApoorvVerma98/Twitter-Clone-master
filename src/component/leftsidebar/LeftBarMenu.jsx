@@ -16,7 +16,7 @@ import {BsTwitter} from 'react-icons/bs'
 
 
  
-function LeftBarMenu() {
+function LeftBarMenu() { 
   const Dispatch = useDispatch()
 
   const [toggle, setToggle] = useState(false);

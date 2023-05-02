@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import Joi from "joi";
 import styles from "./SignIn.module.css";
 import { FaTwitter } from "react-icons/fa";
-import swal from "sweetalert2";
+import swal from "sweetalert2"; 
 import { useNavigate } from "react-router-dom";
 import { useSetRecoilState } from "recoil";
 import { authAtom } from "../../component/recoil/atom";
@@ -18,7 +18,7 @@ function TwitterLogin() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
-  // const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(false);
 
   const schema = Joi.object({
     username: Joi.string().required(),

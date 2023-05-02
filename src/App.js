@@ -6,17 +6,17 @@ import Home from "./pages/homePage/Home.jsx";
 import { Provider } from "react-redux";
 import store from "./component/storeComponent/store";
 import { authAtom } from "./component/recoil/atom";
-import { useRecoilState, useSetRecoilState } from "recoil";
+import { useRecoilState} from "recoil";
 import { useEffect, useRef } from "react";
 
 const PR = ({ children }) => {
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
   const [auth, setAuth] = useRecoilState(authAtom);
   useEffect(() => {
     // console.log("First signup");
     if (!auth?.isLoggedIn) {
       navigate("/signin");
-      console.log("working");
+      // console.log("working");
     }
   }, [auth]);
 
@@ -25,7 +25,7 @@ const PR = ({ children }) => {
 
 function App() {
   const [auth, setAuth] = useRecoilState(authAtom);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const isFirstRender = useRef(true);
 
