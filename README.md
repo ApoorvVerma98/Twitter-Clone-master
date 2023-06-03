@@ -1,6 +1,7 @@
 *********
 
 Deployed link :- https://twitter-clone-project.onrender.com/
+![image](https://github.com/ApoorvVerma98/Twitter-Clone-master/assets/126326376/36bcae1c-00b8-4b10-9e92-81202c253098)
 
 ![image](https://github.com/ApoorvVerma98/Twitter-Clone-master/assets/126326376/3f5c8591-4d68-41d6-bf6c-276ec3feeb70)
 
