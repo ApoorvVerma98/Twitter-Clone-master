@@ -9,7 +9,7 @@ Deployed link :- https://twitter-clone-project.onrender.com/
 
 
 
-Welcome to the Twitter Clone created by Apoorv Verma and Chand Babu!
+Welcome to the Twitter Clone created by Apoorv Verma.
 
 This project aims to replicate the basic functionality of the popular social media platform, Twitter. Users can create an account, follow other users, post tweets, and interact with other users' tweets by liking and commenting on them.
 
